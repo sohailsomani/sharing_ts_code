@@ -1,0 +1,14 @@
+{
+    "files": [
+        "./ts/client.ts"
+    ],
+    "compilerOptions" : {
+        "noImplicitAny" : true,
+        "target" : "es5",
+        "rootDirs": [
+            "./ts",
+            "../module1/ts",
+            "../module2/ts"
+        ]
+    }
+}
