@@ -1,2 +1,4 @@
 **/node_modules
-**/js
+**/bower_components
+**/typings
+dist
