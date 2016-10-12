@@ -3,9 +3,22 @@
 
 rd /s /q dist
 
-pushd module1 && call gulp && popd
-pushd module2 && call gulp && popd
-pushd client && call gulp && popd
+cd module1
+call npm install
+call gulp
+cd ..
+
+cd module2
+call npm install
+call gulp
+cd ..
+
+cd client
+call npm install
+call bower install
+call gulp
+cd ..
+
 start dist\index.html
 
 @endlocal
