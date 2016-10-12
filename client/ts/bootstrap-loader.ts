@@ -5,5 +5,3 @@ var requirejs = (window as any).requirejs;
 requirejs.config({
     baseUrl: 'js',
 });
-
-requirejs(['./client']);

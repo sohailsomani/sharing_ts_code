@@ -1,13 +1,15 @@
 {
     "include": [
-        "./ts/**.ts"
+        "**/ts/**.ts"
     ],
     "compilerOptions" : {
         "noImplicitAny" : true,
+        "experimentalDecorators": true,
         "target" : "es5",
         "module":"amd",
         "rootDirs": [
             "./ts",
+            "./components/test-web-component/ts",
             "../module1/ts",
             "../module2/ts"
         ]
