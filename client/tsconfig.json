@@ -10,6 +10,7 @@
         "rootDirs": [
             "./ts",
             "./components/test-web-component/ts",
+            "./components/another-web-component/ts",
             "../module1/ts",
             "../module2/ts"
         ]
