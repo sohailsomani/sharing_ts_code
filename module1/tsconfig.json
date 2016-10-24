@@ -1,7 +1,4 @@
 {
-    "files": [
-        "./ts/module1.ts"
-    ],
     "compilerOptions" : {
         "noImplicitAny" : true,
         "target" : "es5",
