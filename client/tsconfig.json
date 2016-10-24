@@ -1,18 +1,19 @@
 {
-    "include": [
-        "**/ts/**.ts"
-    ],
-    "compilerOptions" : {
-        "noImplicitAny" : true,
-        "experimentalDecorators": true,
-        "target" : "es5",
-        "module":"amd",
-        "rootDirs": [
-            "./ts",
-            "./components/test-web-component/ts",
-            "./components/another-web-component/ts",
-            "../module1/ts",
-            "../module2/ts"
-        ]
-    }
+  "include": [
+    "**/ts/**.ts"
+  ],
+  "compilerOptions" : {
+    "noEmitOnError": true,
+    "noImplicitAny" : true,
+    "experimentalDecorators": true,
+    "target" : "es5",
+    "module":"amd",
+    "rootDirs": [
+      "./ts",
+      "./components/test-web-component/ts",
+      "./components/another-web-component/ts",
+      "../module1/ts",
+      "../module2/ts"
+    ]
+  }
 }
