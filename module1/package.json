@@ -1,9 +1,11 @@
 {
-    "name": "module1",
-    "version": "1.0.0",
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-typescript": "^3.0.2",
-        "typescript": "^2.0.3"
-    }
+  "name": "module1",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/bluebird": "^3.0.35",
+    "@types/polymer-ts": "^0.1.28",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.0.2",
+    "typescript": "^2.0.3"
+  }
 }

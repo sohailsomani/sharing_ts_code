@@ -1,5 +1,3 @@
-/// <reference path="../../../bower_components/polymer-ts/polymer-ts.d.ts" />
-
 import {module1} from "./module1";
 import {module2} from "./module2";
 

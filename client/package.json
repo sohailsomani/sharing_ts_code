@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
+    "@types/polymer-ts": "^0.1.28",
     "browserify": "^13.1.0",
     "gulp": "^3.9.1",
     "gulp-flatten": "^0.3.1",
@@ -11,5 +12,8 @@
     "merge-stream": "^1.0.0",
     "tsify": "^2.0.2",
     "typescript": "^2.0.3"
+  },
+  "dependencies": {
+    "@types/requirejs": "^2.1.28"
   }
 }
