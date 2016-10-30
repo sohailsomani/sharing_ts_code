@@ -1,20 +1,13 @@
 {
-  "include": [
-    "**/ts/**.ts"
-  ],
   "compilerOptions" : {
     "noEmitOnError": true,
     "noImplicitAny" : true,
     "experimentalDecorators": true,
     "target" : "es5",
-    "module":"amd",
-    "moduleResolution": "node",
-    "rootDirs": [
-      "./ts",
-      "./components/test-web-component/ts",
-      "./components/another-web-component/ts",
-      "../module1/ts",
-      "../module2/ts"
-    ]
-  }
+    "moduleResolution": "node"
+  },
+  "include": [
+    "ts/*.ts",
+    "../dist/tsd/*.ts"
+  ]
 }

@@ -1,7 +1,8 @@
 var gulp = require('gulp');
 var flatten = require('gulp-flatten');
 var ts = require('gulp-typescript');
-var tsProject = ts.createProject('tsconfig.json');
+var tsProject = ts.createProject('tsconfig.json',{
+});
 var merge = require('merge-stream');
 
 gulp.task('default',['copy-html','compile-ts','copy-dependencies'], function() {

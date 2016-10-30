@@ -1,3 +1,5 @@
-export function module2(parameter:string) {
-    return `You passed in ${parameter} to module`;
+namespace module2 {
+    export function module2(parameter:string) {
+        return `You passed in ${parameter} to module`;
+    }
 }

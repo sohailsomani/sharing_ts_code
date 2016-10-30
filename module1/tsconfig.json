@@ -3,8 +3,8 @@
     "noEmitOnError": true,
     "noImplicitAny" : true,
     "target" : "es5",
-    "module": "amd",
     "moduleResolution": "node",
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "module": "umd"
   }
 }

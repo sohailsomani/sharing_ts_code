@@ -6,6 +6,6 @@
     "noEmitOnError": true,
     "noImplicitAny" : true,
     "target" : "es5",
-    "module":"amd"
+    "module": "umd"
   }
 }
